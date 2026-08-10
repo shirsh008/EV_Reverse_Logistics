@@ -751,4 +751,4 @@ latitude_list =('''
 25.99972215
 ''')
 latitude_st = latitude_list.strip().split('\n')
-latitude = [int(float(x)) for x in latitude_st]
+latitude = [float(x) for x in latitude_st]
