@@ -750,4 +750,5 @@ latitude_list =('''
 20.08354648
 25.99972215
 ''')
-latitude = latitude_list.strip().split('\n')
+latitude_st = latitude_list.strip().split('\n')
+latitude = [int(x) in for x in latitude_st]
