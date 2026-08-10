@@ -750,4 +750,5 @@ longitude_list =('''
 78.16102492
 94.48393292
 ''')
-longitude = longitude_list.strip().split('\n')
+longitude_st = longitude_list.strip().split('\n')
+longitude = [int(x) in for x in longitude_st]
