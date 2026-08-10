@@ -751,4 +751,4 @@ longitude_list =('''
 94.48393292
 ''')
 longitude_st = longitude_list.strip().split('\n')
-longitude = [int(x) in for x in longitude_st]
+longitude = [float(x) for x in longitude_st]
