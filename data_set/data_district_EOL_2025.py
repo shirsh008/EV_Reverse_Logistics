@@ -709,4 +709,4 @@ EOL_data_25_list =('''
 13.86138404
 ''')
 EOL_data_25_st = EOL_data_25_list.strip().split('\n')
-EOL_data_25 = [int(x) in for x in EOL_data_25_st]
+EOL_data_25 = [float(x) for x in EOL_data_25_st]
