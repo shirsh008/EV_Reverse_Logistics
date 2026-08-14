@@ -1,4 +1,4 @@
-second_life_longitude = ('''
+second_life_capacity = ('''
 30 MW / 120 MWh
 100 MW/ 120 MWh
 100 MW
