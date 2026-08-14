@@ -28,3 +28,5 @@ manufacturers_capacity = ('''
 100 MWh
 350 MWh
 ''')
+manufacturers_capacity = manufacturers_capacity.strip().split('\n')
+ev_manufacturers_capacity = [float(x) for x in manufacturers_capacity]
