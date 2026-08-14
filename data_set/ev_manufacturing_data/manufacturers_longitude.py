@@ -28,4 +28,5 @@ manufacturers_longitude = ('''
 77.26952952
 77.13680474
 ''')
-manufacturers_longitude = manufacturers_longitude
+manufacturers_longitude = manufacturers_longitude.strip().split('\n')
+ev_manufacturers_longitude = [float(x) for x in manufacturers_longitude]
