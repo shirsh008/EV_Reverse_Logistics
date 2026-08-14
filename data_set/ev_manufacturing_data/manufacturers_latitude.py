@@ -28,3 +28,5 @@ manufacturers_latitude = ('''
 28.53793356
 28.63575047
 ''')
+manufacturers_latitude = manufacturers_latitude.strip().split('\n')
+ev_manufacturers_latitude = [float(x) for x in manufacturers_latitude]
