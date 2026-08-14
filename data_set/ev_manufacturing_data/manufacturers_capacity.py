@@ -1,32 +1,32 @@
 manufacturers_capacity = ('''
-240 MWh
-120000 packs
-1000 MWh
-20 GWh
-12.5 GWh
-5 GWh
-1500 mwh
-10 GWh
-20 GWh
-500 mwh
-5 GWh
-288 MWh
-400 MWh
-50000 packs
-1 GWh
-155000 packs
-100 MWh
-200 MWh
-1500 MWh
-400 MWh
-200 MWh
-140 MWh
-400 MWh
-500 MWh
-250 MWh
-750 MWh
-100 MWh
-350 MWh
+240
+5000
+1000
+20000
+12500
+5000
+1500
+10000
+20000
+500
+5000
+288
+400
+1000
+1000
+7000
+100
+200
+1500
+400
+200
+140
+400
+500
+250
+750
+100
+350 
 ''')
 manufacturers_capacity = manufacturers_capacity.strip().split('\n')
-ev_manufacturers_capacity = [float(x) for x in manufacturers_capacity]
+ev_manufacturers_capacity = [int(x) for x in manufacturers_capacity]
