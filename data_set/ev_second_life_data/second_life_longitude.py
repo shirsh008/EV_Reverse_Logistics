@@ -1,4 +1,4 @@
-second_life_longittude = ('''
+second_life_longitude = ('''
 76.81534171
 81.0425328
 72.8357379
@@ -22,3 +22,5 @@ second_life_longittude = ('''
 79.4005
 74.2179
 ''')
+second_life_longitude = second_life_longitude.strip().split('\n')
+ev_second_life_longitude = [float(x) for x in second_life_longitude]
