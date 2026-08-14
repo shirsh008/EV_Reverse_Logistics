@@ -1,0 +1,24 @@
+second_life_longitude = ('''
+30 MW / 120 MWh
+100 MW/ 120 MWh
+100 MW
+100 MW/200 MWh
+1560 MW/ 2500 MWh
+1 GW
+1126 MW/ 3530 MWh
+500 MWh
+125 MW / 500 MWh
+290 MWh
+1 GWh
+800 MW / 3,200 MWh
+40 GWh
+50 MW/100MWh
+225 MW/450 MWh
+10 MW/ 20 MWh
+500 MW/ 700 MWh
+
+12 GWh
+500 MWh
+250 MWh
+350 MW
+''')
