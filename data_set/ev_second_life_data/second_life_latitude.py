@@ -22,3 +22,5 @@ second_life_latitude = ('''
 28.9839
 27.0238
 ''')
+second_life_latitude = second_life_latitude.strip().split('\n')
+ev_second_life_latitude = [float(x) for x in second_life_latitude]
