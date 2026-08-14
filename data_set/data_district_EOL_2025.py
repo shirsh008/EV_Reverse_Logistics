@@ -706,7 +706,6 @@ EOL_data_25_list =('''
 51.87752518
 0.434097009
 13.86138404
-13.86138404
 ''')
 EOL_data_25_st = EOL_data_25_list.strip().split('\n')
 EOL_data_25 = [float(x) for x in EOL_data_25_st]
