@@ -1,7 +1,6 @@
 # @title
 #district name data -
-district_list = ('''
-ADILABAD
+district_list = (''' ADILABAD
 AGAR MALWA
 AGRA
 AHAMADNAGAR
@@ -706,7 +705,5 @@ YADADRI BHUVANAGIRI
 YADGIR
 YAMUNANAGAR
 YANAM
-YAVATMAL
-USMANABAD
-''')
+YAVATMAL''') 
 district_name = district_list.strip().split('\n')
