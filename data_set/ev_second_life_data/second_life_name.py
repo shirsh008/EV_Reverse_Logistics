@@ -22,3 +22,4 @@ luminous
 luminous
 luminous
 ''')
+second_life_name = second_life_name.strip().split('\n')
