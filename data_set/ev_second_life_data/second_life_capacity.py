@@ -22,3 +22,5 @@ second_life_capacity = ('''
 250
 350
 ''')
+second_life_capacity = second_life_capacity.strip().split('\n')
+ev_second_life_capacity = [int(x) for x in second_life_capacity]
