@@ -28,3 +28,4 @@ cygni energy
 inverted
 trontek
 ''')
+ev_manufacturers = ev_manufacturers.strip().split('\n')
