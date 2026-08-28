@@ -1,25 +1,25 @@
 second_life_name = ('''
-tata power renewables 1
-tata power renewables 2
-tata power renewables 3
-tata power renewables 4
-avaada 1
-avaada 2
+tata_power_renewables1
+tata_power_renewables2
+tata_power_renewables3
+tata_power_renewables4
+avaada1
+avaada2
 adani
-jsw 1
-jsw 2
-ntpc 1
-ntpc 2
-ntpc 3
+jsw1
+jsw2
+ntpc1
+ntpc2
+ntpc3
 reliance
-acme 1
-acme 2
+acme1
+acme2
 hero futures
-amara raja 1
-amara raja 2
+amara_raja1
+amara_raja2
 exide
-luminous 1
-luminous 2
-luminous 3
+luminous1
+luminous2
+luminous3
 ''')
 ev_second_life_name = second_life_name.strip().split('\n')
