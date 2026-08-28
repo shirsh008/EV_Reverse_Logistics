@@ -22,4 +22,4 @@ luminous1
 luminous2
 luminous3
 ''')
-ev_second_life_name = second_life_name.strip().split('\n')
+ev_second_life_name = second_life_name.strip().splitlines()
