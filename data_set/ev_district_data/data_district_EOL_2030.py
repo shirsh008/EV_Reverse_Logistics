@@ -1,4 +1,4 @@
-EOL_data_2030_list = (''' 3.455968797
+EOL_data_30_list = (''' 3.455968797
 8.36160064
 544.8794315
 159.1762059
@@ -704,3 +704,5 @@ EOL_data_2030_list = (''' 3.455968797
 140.0061249
 2.346780415
 66.10377453 ''')
+EOL_data_30_st = EOL_data_30_list.strip().split('\n')
+EOL_data_30 = [float(x) for x in EOL_data_30_st]
