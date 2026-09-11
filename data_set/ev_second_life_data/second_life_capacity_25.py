@@ -1,4 +1,4 @@
-second_life_capacity = ('''
+second_life_capacity_25 = ('''
 461.54
 307.69
 307.69
@@ -31,5 +31,5 @@ second_life_capacity = ('''
 135.38
 153.85
 ''')
-second_life_capacity = second_life_capacity.strip().split('\n')
-ev_second_life_capacity = [float(x) for x in second_life_capacity]
+second_life_capacity_25 = second_life_capacity_25.strip().split('\n')
+ev_second_life_capacity_25 = [float(x) for x in second_life_capacity_25]
