@@ -1,6 +1,6 @@
 manufacturers_capacity = ('''
 240
-5000
+6000
 1000
 20000
 12500
@@ -12,9 +12,9 @@ manufacturers_capacity = ('''
 5000
 288
 400
+2500
 1000
-1000
-7000
+7750
 100
 200
 1500
@@ -26,7 +26,7 @@ manufacturers_capacity = ('''
 250
 750
 100
-350 
+350
 ''')
 manufacturers_capacity = manufacturers_capacity.strip().split('\n')
 ev_manufacturers_capacity = [int(x) for x in manufacturers_capacity]
