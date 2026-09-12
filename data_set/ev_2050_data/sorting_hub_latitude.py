@@ -49,3 +49,5 @@ sorting_hub_latitude = ('''
 16.55570732
 26.97044952
 ''')
+sorting_hub_latitude = sorting_hub_latitude.strip().split('\n')
+ev_sorting_hub_latitude = [float(x) for x in sorting_hub_latitude]
