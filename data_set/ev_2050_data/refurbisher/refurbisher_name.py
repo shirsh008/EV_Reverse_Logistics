@@ -1,6 +1,7 @@
 refurbisher_name = ('''
-BENGALURU URBAN
-JAIPUR
+BHOPAL
+CHHATRAPATI SAMBHAJINAGAR
+NAGPUR
 UJJAIN
 ''')
 ev_refurbisher_name = refurbisher_name.strip().splitlines()
