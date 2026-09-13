@@ -1,6 +1,7 @@
 refurbisher_longitude = ('''
-77.59370913
-75.71984142
+77.39075707
+75.27976129
+79.08503025
 75.66903367
 ''')
 refurbisher_longitude = refurbisher_longitude.strip().split('\n')
