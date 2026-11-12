@@ -1,4 +1,4 @@
-district_list = (''' PUNE
+district_list_industry = (''' PUNE
 BENGALURU URBAN
 AHMEDABAD
 THANE
@@ -597,4 +597,4 @@ KHAIRTHAL-TIJARA
 CHIRANG
 DEOGARH
 WANAPARTHY ''') 
-district_name = district_list.strip().split('\n')
+district_name_industry = district_list_industry.strip().split('\n')
